@@ -10,7 +10,7 @@
     <link rel="icon" href="/favicon.ico">
   
     
-  <title>Archives | Jingbo Gao</title>
+  <title>Projects | Jingbo Gao</title>
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/lib/jquery.fancybox.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,13 +38,13 @@
       
         <li class="nav-item">
           
-            <a href="/projects" class="item-link">Projects</a>
+            <a href="/projects" class="item-link active">Projects</a>
           
         </li>
       
         <li class="nav-item">
           
-            <a href="/archives" class="item-link active">Archives</a>
+            <a href="/archives" class="item-link">Archives</a>
           
         </li>
       
@@ -52,28 +52,49 @@
   </div>
 </header>
 
-  <main id="archive">
+  <main id="post">
   <div class="content">
-        
+    <article>
+        <section class="content markdown-body">
+          <h1>Projects</h1>
+          <div class="post-meta">
+            <i class="fa fa-calendar" aria-hidden="true"></i> <time>2019/01/15</time>
+            
+            
+          </div>
+          
+        </section>
+    </article>
     
-      <div class="year-list">
-        <h3>2019</h3>
-        <ul>
-          
-            <li>
-              <time>2019/01/15</time>
-              <a href="/2019/01/15/hello-world/">
-                <span>
-                    Hello World
-                </span>
-              </a>
-            </li>
-          
-        </ul>
-      </div>
+    
+        <!-- livere 评论框 start -->
+        <div class="comment">
+            <div id="lv-container" data-id="city" data-uid="your_livere_uid"></div>
+        </div>
+        <!-- livere 评论框 end -->
         
   </div>
+  <aside>
+    
+  </aside>
 </main>
+
+
+<script type="text/javascript">
+  (function(d, s) {
+      var j, e = d.getElementsByTagName(s)[0];
+
+      if (typeof LivereTower === 'function') { return; }
+
+      j = d.createElement(s);
+      j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+      j.async = true;
+
+      e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+
 
   <footer>
   <div class="copyright">
